@@ -8,8 +8,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
-const pass = xWtSEihHaXxqvmQv;
-const user = akshayshailesh;
+const pass = "xWtSEihHaXxqvmQv";
+const user = "akshayshailesh";
 
 var db1 = mongoose.connect(
 	"mongodb+srv://" +
